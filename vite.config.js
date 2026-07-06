@@ -9,6 +9,10 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+<<<<<<< HEAD
+=======
+  base: "/card-shop/",
+>>>>>>> 96b0ed342302ba3c70637d827a79a637f902e1df
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

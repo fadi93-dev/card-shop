@@ -65,9 +65,13 @@ function App() {
         <div className="flex justify-between">
           <div className="flex items-center ml-10 gap-5">
             <Webhook className="w-10 h-10" />
+<<<<<<< HEAD
             <span className="hidden md:flex font-semibold text-2xl">
               card-shop
             </span>
+=======
+            <span className="font-semibold text-2xl">card-shop</span>
+>>>>>>> 96b0ed342302ba3c70637d827a79a637f902e1df
           </div>
           <div className="hidden md:flex items-center ml-4 mr-4">
             <a href="#" className="text-lg font-bold">
@@ -86,8 +90,13 @@ function App() {
           </div>
         </div>
       </nav>
+<<<<<<< HEAD
       <div className="grid md:grid-cols-5 items-start bg-indigo-50">
         <div className="grid justify-items-center h-150 md:col-span-2 overflow-y-auto scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent hover:scrollbar-thumb-black transition-[scrollbar-color] duration-300">
+=======
+      <div className="grid grid-cols-5  h-fit items-start bg-indigo-50">
+        <div className="grid justify-items-center col-span-2">
+>>>>>>> 96b0ed342302ba3c70637d827a79a637f902e1df
           {loadingcard &&
             [1, 2].map((item) => (
               <div
@@ -125,7 +134,11 @@ function App() {
               </div>
             ))}
         </div>
+<<<<<<< HEAD
         <div className="grid justify-items-center  h-full md:col-span-3 bg-indigo-100">
+=======
+        <div className="grid justify-items-center h-full col-span-3 bg-indigo-100">
+>>>>>>> 96b0ed342302ba3c70637d827a79a637f902e1df
           {loadingselectedcard &&
             [1].map((item) => (
               <div
@@ -143,6 +156,14 @@ function App() {
                     <Skeleton className="h-5 w-20 m-2" />
                     <Skeleton className="h-5 w-20 m-2" />
                   </div>
+<<<<<<< HEAD
+=======
+                  <div>
+                    <Skeleton className="m-2 h-5 w-5" />
+                    <Skeleton className="m-2 h-5 w-5" />
+                    <Skeleton className="m-2 h-5 w-5" />
+                  </div>
+>>>>>>> 96b0ed342302ba3c70637d827a79a637f902e1df
                 </CardContent>
               </div>
             ))}
@@ -174,7 +195,11 @@ function App() {
             ))}
         </div>
       </div>
+<<<<<<< HEAD
       <div className="bg-yellow-300 min-w-full  min-h-screen grid md:grid-cols-2  items-start justify-items-center md:place-content-start">
+=======
+      <div className="bg-yellow-300 min-w-full  min-h-screen grid grid-cols-2 items-start justify-items-center">
+>>>>>>> 96b0ed342302ba3c70637d827a79a637f902e1df
         {loadingproduct &&
           [1, 2].map((item) => (
             <div
@@ -186,9 +211,15 @@ function App() {
                   <Skeleton className="h-5 w-20" />
                 </CardTitle>
               </CardHeader>
+<<<<<<< HEAD
               <CardContent className="grid grid-cols-1 md:grid-cols-2  place-items-center">
                 <div>
                   <Skeleton className="w-40 h-52 object-fill rounded-2xl" />
+=======
+              <CardContent className="grid grid-cols-2 place-items-center">
+                <div>
+                  <Skeleton className="w-52 h-52 object-fill rounded-2xl" />
+>>>>>>> 96b0ed342302ba3c70637d827a79a637f902e1df
                 </div>
                 <div className="">
                   <Skeleton className="h-5 w-20 m-2" />
@@ -201,7 +232,11 @@ function App() {
           detail.map((det) => (
             <div
               key={det.id}
+<<<<<<< HEAD
               className="bg-white p-3 m-2 w-[90%] text-center border-2 hover:border-amber-300 rounded-2xl transition-colors duration-300"
+=======
+              className="bg-white  p-3 m-2 w-[90%] text-center border-2 hover:border-amber-300 rounded-2xl transition-colors duration-300"
+>>>>>>> 96b0ed342302ba3c70637d827a79a637f902e1df
             >
               <CardHeader>
                 <CardTitle className="p-4 text-2xl font-serif ">
@@ -216,6 +251,7 @@ function App() {
                   />
                 </div>
                 <div>
+<<<<<<< HEAD
                   <div className="flex justify-center  m-2">
                     <p className="flex items-end mr-2 ml-2">ل.س.ج</p>
                     <p className="lg:text-6xl text-4xl">{det.price}</p>
@@ -224,6 +260,14 @@ function App() {
                   <p className="text-lg text-gray-400 mr-2 ml-2">
                     {det.description}
                   </p>
+=======
+                  <div className="flex justify-center">
+                    <p className="flex items-end mr-2 ml-2">ل.س.ج</p>
+                    <p className="md:text-6xl text-3xl">{det.price}</p>
+                  </div>
+
+                  <p className="text-lg text-gray-400">{det.description}</p>
+>>>>>>> 96b0ed342302ba3c70637d827a79a637f902e1df
                 </div>
               </CardContent>
             </div>

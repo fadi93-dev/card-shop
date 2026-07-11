@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: "http://fadi93-dev.github.io/card-shop/sitemap.xml" 

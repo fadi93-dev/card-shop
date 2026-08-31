@@ -1,1 +1,0 @@
-import{a as e,i as t,n,r,t as i}from"./index-DBxkgErA.js";var a=t(),o=(0,e(r(),1).createContext)({base:`/card-shop`});function s({value:e,children:t}){return(0,a.jsx)(o,{value:e,children:t})}function c(e){return n(e).index}var l={default:c(i)},u={RenderContextProvider:s};export{l as export_85cd6de63906,u as export_9c4d452814ac};

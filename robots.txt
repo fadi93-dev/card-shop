@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://aleppocart.com
+Sitemap: https://aleppocart.com/sitemap.xml
